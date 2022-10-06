@@ -1,0 +1,16 @@
+*{
+    list-style: none;
+}
+.main-header{
+    display: flex;
+}
+.menu{
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+}
+.menu-list{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
