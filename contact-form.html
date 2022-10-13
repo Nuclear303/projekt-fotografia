@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/concact.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get" onsubmit="sendEmail(); reset(); return false;">
+            <h3>DANE KONTAKTOWE</h3>
+            <input type="text" name="name"  placeholder="Imię"  required> 
+            <input type="text" name="last-name" id="" placeholder="Nazwisko" required> 
+            <input type="email" name="e-mail" id="" placeholder="E-mail" required>
+            <input type="tel" name="phone" placeholder="Numer telefonu" id="" required>
+            <textarea name="message" id="" cols="30" rows="5" placeholder="Jak możemy pomóc?" required></textarea>
+            <button type="submit" class="send">Wyślij</button>
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./js/contact.js"></script>
+</body>
+</html>
