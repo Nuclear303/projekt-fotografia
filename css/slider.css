@@ -1,0 +1,29 @@
+header{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.counter{
+  margin-left:50vw;
+  font-family: Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  font-size:24px;
+}
+.previous{
+  position:absolute;
+  top:25%;
+  left:0%;
+}
+.next{
+  position:absolute;
+  top:25%;
+  right:0%;
+}
+svg{
+  width:48px;
+  aspect-ratio: 1/1;
+  color:white;
+}
+.next, .previous{
+  background-color:transparent !important;
+  border:0;
+}

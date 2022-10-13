@@ -3,6 +3,7 @@
 }
 .main-header{
     display: flex;
+    height:50vh;
 }
 .menu{
     width: 100%;
