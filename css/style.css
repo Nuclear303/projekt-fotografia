@@ -1,5 +1,7 @@
 *{
     list-style: none;
+    text-decoration: none;
+    
 }
 .main-header{
     display: flex;
@@ -14,4 +16,12 @@
     margin: 0;
     display: flex;
     justify-content: space-between;
+}
+.menu-element a{
+    color: white;
+    font-family: 'Apple chancery';
+    cursor: pointer;
+}
+.home{
+    font-size: x-large;
 }
